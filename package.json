@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-2023",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha src/**/*.test.ts",
+    "test:watch": "npm run test -- --watch",
+    "run-day": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.3",
+    "eslint": "^8.55.0",
+    "eslint-config-hein": "^1.0.4",
+    "hein": "^1.4.1",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "resolutions": {
+    "**/prettier": "npm:@staycool/prettier@^3.0.1"
+  }
+}

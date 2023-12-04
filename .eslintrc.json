@@ -1,0 +1,6 @@
+{
+    "extends": "eslint-config-hein",
+    "rules": {
+        "unicorn/prefer-module": "off"
+    }
+}
